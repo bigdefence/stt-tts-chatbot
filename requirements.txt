@@ -1,0 +1,14 @@
+fastapi 
+uvicorn 
+transformers
+torch 
+pyngrok 
+nest_asyncio 
+accelerate 
+faster-whisper
+streamlit
+requests
+scipy
+sounddevice
+gtts
+pygame
