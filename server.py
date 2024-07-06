@@ -81,7 +81,7 @@ async def speech_to_chat(file: UploadFile = File(...)):
 if __name__ == "__main__":
     nest_asyncio.apply()
 
-    ngrok.set_auth_token("2i0BgTt6pGt8lhuccXOX2rkxYka_4x6XHFQPH8x6ZUtVM4ctP")
+    ngrok.set_auth_token("ngrok token")
     public_url = ngrok.connect(8000)
     print(f"Public URL: {public_url}")
 
